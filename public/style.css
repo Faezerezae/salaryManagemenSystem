@@ -122,7 +122,6 @@ form input[type="number"]:focus {
   border-bottom: 0.2px solid gray;
   border-top: 0.2px solid gray;
   align-items: center;
-  padding: 2px;
 }
 
 .form {
