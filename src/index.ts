@@ -45,7 +45,7 @@ const renderUI = (users: User[]): void => {
     const salarySpan = <HTMLSpanElement>document.createElement("span");
     salarySpan.innerText = `${user.salary} تومان`;
     const btnEdit = <HTMLButtonElement>document.createElement("button");
-    btnEdit.innerText = "Edit";
+    btnEdit.innerText = "ویرایش";
     btnEdit.classList.add("btn-edit");
     btnEdit.addEventListener("click", () => editUser(user));
     const btnDelete = <HTMLButtonElement>document.createElement("button");

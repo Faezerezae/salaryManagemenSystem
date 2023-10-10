@@ -32,7 +32,7 @@ const renderUI = (users) => {
         const salarySpan = document.createElement("span");
         salarySpan.innerText = `${user.salary} تومان`;
         const btnEdit = document.createElement("button");
-        btnEdit.innerText = "Edit";
+        btnEdit.innerText = "ویرایش";
         btnEdit.classList.add("btn-edit");
         btnEdit.addEventListener("click", () => editUser(user));
         const btnDelete = document.createElement("button");
