@@ -70,7 +70,7 @@ body {
   font-size: 16px;
   cursor: pointer;
   border-radius: 2px;
-  padding:0 6px;
+  padding: 0 6px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,10 +110,10 @@ form input {
 }
 
 form input[type="text"]:focus {
-  border-color: cornflowerblue;
+  border-color: rgba(50, 250, 5, 0.619);
 }
 form input[type="number"]:focus {
-  border-color: cornflowerblue;
+  border-color: rgba(50, 250, 5, 0.619);
 }
 
 .item {
@@ -137,7 +137,7 @@ form input[type="number"]:focus {
 }
 
 .input {
-  margin-bottom: 10px;
+  margin: 2px 10px;
   position: relative;
   display: flex;
   align-items: center;
